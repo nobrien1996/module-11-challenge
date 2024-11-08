@@ -1,7 +1,7 @@
 //SETTING CONSTS
 const util = require('util');
 const fs = require('fs');
-const uuidv11 = require('uuid/v11');
+const uuidv11 = require('uuid');
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
